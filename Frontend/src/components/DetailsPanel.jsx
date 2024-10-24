@@ -13,10 +13,10 @@ function DetailsPanel({DetailsClass, TableClass}) {
             <table cellSpacing="0" cellPadding="8" border="1" className=" DetailsTable w-full text-center text-black ">
                 <tbody >
                     <tr>
-                        <th className="w-6/12">RBC</th>
+                        <th className="w-8/12">RBC</th>
                         
                         <th className="w-2/12" >Count</th>
-                        <th className="w-4/12">Percentage</th>
+                        <th className="w-2/12">Percentage</th>
                     </tr>
                     <tr >
                         <td >Angled Cells</td>
@@ -56,9 +56,9 @@ function DetailsPanel({DetailsClass, TableClass}) {
                     
                     {/* WBC */}
                     <tr>
-                        <th className="w-6/12">WBC</th>
+                        <th className="w-8/12">WBC</th>
                         <th className="w-2/12" >Count</th>
-                        <th className="w-4/12">Percentage</th>
+                        <th className="w-2/12">Percentage</th>
                     </tr>
                     <tr >
                         <td >Basophil</td>
