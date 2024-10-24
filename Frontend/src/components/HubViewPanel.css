@@ -1,0 +1,49 @@
+.HubViewPanel {
+    position: absolute;
+    top: 100px;
+    right: -80px;
+    width: 20%;
+    min-width: 400px;
+    height: 20%;
+    z-index: 999;
+}
+
+.MiniMap {
+    width: 100%;
+    height: 100%;
+    transform: scale(2);
+    border: 1px solid rgba(0, 0, 0, 0.302);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.372);
+}
+
+@media only screen and (max-width: 1024px) {
+    .HubViewPanel {
+        position: absolute;
+        top: 100px;
+        right: -140px;
+        width: 20%;
+        min-width: 400px;
+        height: 20%;
+        
+        z-index: 999;
+    }
+    .MiniMap {
+        transform: scale(1.5);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .HubViewPanel {
+        position: absolute;
+        top: 80px;
+        right: -200px;
+        width: 20%;
+        min-width: 400px;
+        height: 20%;
+        
+        z-index: 999;
+    }
+    .MiniMap {
+        transform: scale(1);
+    }
+}

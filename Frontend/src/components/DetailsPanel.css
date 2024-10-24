@@ -1,0 +1,74 @@
+.DetailsPanel {
+    position: absolute;
+    top: 100px;
+    left: 8px;
+    width: 40%;
+    max-height: 800px;
+    
+    max-width: 800px;
+    padding: 2px;
+    
+    
+    background-color: rgba(22, 45, 73, 0.913);
+    background-image: linear-gradient( rgba(170, 177, 217, 0.913),rgba(13, 48, 91, 0.913));
+    border-radius: 2px;
+    z-index: 999;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.547);
+    transition: min-width 0.2s ease;
+    transition: max-height 0.2s ease;
+    transition: max-width 0.2s ease;
+    
+}
+
+.DetailsDisplay {
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 10px;
+    transition: min-width 0.2s ease;
+    transition: max-height 0.1s ease;
+    transition: max-width 0.1s ease;
+    background-color: transparent;
+    border: none;
+    background-image: none ;
+    box-shadow: none;
+    
+    
+}
+
+.TableDisplay {
+    display: none;
+    
+}
+
+
+table {
+    width: 100%;
+    background-color: rgba(195, 211, 231, 0.749);
+    border-radius: 4px;
+}
+tbody {
+    border-radius: 4px;
+    border: 1px solid rgba(22, 45, 73, 0.913);
+}
+tr  {
+    text-align: center;
+    background-color: rgba(214, 223, 233, 0.913);
+    
+}
+th  {
+    text-align: center;
+    background-color: rgba(22, 45, 73, 0.913);
+    border: 2px solid rgba(22, 45, 73, 0.913);
+    
+    z-index: 100;
+    color: white;
+}
+td {
+    
+    text-align: center;
+    
+    border: 1px solid rgba(22, 45, 73, 0.485);
+}
+tr:nth-child(even) {
+    background-color: rgba(193, 210, 231, 0.913);
+}
