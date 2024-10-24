@@ -15,70 +15,70 @@ function DetailsPanel({DetailsClass, TableClass}) {
                     <tr>
                         <th className="w-6/12">RBC</th>
                         
-                        <th className="w-2/12" >Test</th>
-                        <th className="w-4/12">Test</th>
+                        <th className="w-2/12" >Count</th>
+                        <th className="w-4/12">Percentage</th>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Angled Cells</td>
+                        <td >222</td>
+                        <td >67%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Borderline Ovalocytes</td>
+                        <td >50</td>
+                        <td >20%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Burr Cells</td>
+                        <td >87</td>
+                        <td >34%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Frangulated Cells</td>
+                        <td >2</td>
+                        <td >0.12%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Ovalocytes</td>
+                        <td ></td>
+                        <td ></td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Rounded RBC</td>
+                        <td ></td>
+                        <td ></td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Teardrops</td>
+                        <td ></td>
+                        <td ></td>
                     </tr>
                     
                     {/* WBC */}
                     <tr>
                         <th className="w-6/12">WBC</th>
-                        <th className="w-2/12" >Test</th>
-                        <th className="w-4/12">Test</th>
+                        <th className="w-2/12" >Count</th>
+                        <th className="w-4/12">Percentage</th>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Basophil</td>
+                        <td >222</td>
+                        <td >67%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Eosinophil</td>
+                        <td >50</td>
+                        <td >20%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Lymphocyte</td>
+                        <td >87</td>
+                        <td >34%</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Monocyte</td>
+                        <td >2</td>
+                        <td >0.12%</td>
                     </tr>
                     
                 </tbody>
@@ -86,16 +86,16 @@ function DetailsPanel({DetailsClass, TableClass}) {
             <table cellSpacing="0" cellPadding="8" border="1" className="DetailsTable w-full ">
                 <tbody >
                     <tr  >
-                        <th colSpan={2}>Test</th>
+                        <th colSpan={2}>Platelets</th>
                         
                     </tr>
                     <tr>
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Count</td>
+                        <td >222</td>
                     </tr>
                     <tr >
-                        <td >Test</td>
-                        <td >Test</td>
+                        <td >Percentage</td>
+                        <td >22%</td>
                     </tr>
                 </tbody>
             </table>
